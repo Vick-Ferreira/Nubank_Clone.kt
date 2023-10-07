@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grafico"
+    app:startDestination="@id/telaA_1Fragment">
+
+    <fragment
+        android:id="@+id/telaA_1Fragment"
+        android:name="com.grud.clone_nubank.nubank_clonekt.Primario.TelaA_1Fragment"
+        android:label="fragment_tela_a_1"
+        tools:layout="@layout/fragment_tela_a_1" >
+        <action
+            android:id="@+id/action_telaA_1Fragment_to_tela_CpfFragment"
+            app:destination="@id/tela_CpfFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tela_CpfFragment"
+        android:name="com.grud.clone_nubank.nubank_clonekt.ui.Tela_CpfFragment"
+        android:label="fragment_tela__cpf"
+        tools:layout="@layout/fragment_tela_cpf" >
+        <action
+            android:id="@+id/action_tela_CpfFragment_to_tela_emailFragment"
+            app:destination="@id/tela_emailFragment" />
+        <action
+            android:id="@+id/action_tela_CpfFragment_to_tela_SenhaCadastradaFragment"
+            app:destination="@id/tela_SenhaCadastradaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tela_emailFragment"
+        android:name="com.grud.clone_nubank.nubank_clonekt.ui.Tela_emailFragment"
+        android:label="fragment_tela_telefone"
+        tools:layout="@layout/fragment_tela_telefone" >
+        <action
+            android:id="@+id/action_tela_emailFragment_to_tela_telefoneFragment"
+            app:destination="@id/tela_telefoneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tela_telefoneFragment"
+        android:name="com.grud.clone_nubank.nubank_clonekt.ui.Tela_telefoneFragment"
+        android:label="fragment_tela_telefone"
+        tools:layout="@layout/fragment_tela_telefone" >
+        <action
+            android:id="@+id/action_tela_telefoneFragment_to_tela_nomeFragment"
+            app:destination="@id/tela_nomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tela_nomeFragment"
+        android:name="com.grud.clone_nubank.nubank_clonekt.ui.Tela_nomeFragment"
+        android:label="fragment_tela_nome"
+        tools:layout="@layout/fragment_tela_nome" >
+        <action
+            android:id="@+id/action_tela_nomeFragment_to_tela_CriarSenhaFragment"
+            app:destination="@id/tela_CriarSenhaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tela_SenhaCadastradaFragment"
+        android:name="com.grud.clone_nubank.nubank_clonekt.Primario.Tela_SenhaCadastradaFragment"
+        android:label="fragment_tela_senha_cadastrada"
+        tools:layout="@layout/fragment_tela_senha_cadastrada" >
+        <action
+            android:id="@+id/action_tela_SenhaCadastradaFragment_to_tela_BFragment"
+            app:destination="@id/tela_BFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tela_CriarSenhaFragment"
+        android:name="com.grud.clone_nubank.nubank_clonekt.ui.Tela_CriarSenhaFragment"
+        android:label="fragment_tela_criar_senha"
+        tools:layout="@layout/fragment_tela_criar_senha" >
+        <action
+            android:id="@+id/action_tela_CriarSenhaFragment_to_tela_BFragment"
+            app:destination="@id/tela_BFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tela_BFragment"
+        android:name="com.grud.clone_nubank.nubank_clonekt.Primario.Tela_BFragment"
+        android:label="fragment_tela__b"
+        tools:layout="@layout/fragment_tela__b" />
+</navigation>

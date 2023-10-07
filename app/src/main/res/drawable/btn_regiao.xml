@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cor de fundo com transparência (definida pelo atributo alpha) -->
+    <solid android:color="#80000000" /> <!-- #80 define uma transparência de 50% -->
+
+    <!-- Outras propriedades de forma (opcional) -->
+    <corners android:radius="4dp" /> <!-- Borda arredondada-->
+</shape>

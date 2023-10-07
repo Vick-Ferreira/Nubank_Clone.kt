@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "440107445534",
+    "project_id": "nubankclone-ee2fb",
+    "storage_bucket": "nubankclone-ee2fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440107445534:android:ed14270ac65d1ac3722d0f",
+        "android_client_info": {
+          "package_name": "com.grud.clone_nubank.nubank_clonekt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaNpbm6Xr59YuH3StJ4QBikMxFDrOFvQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

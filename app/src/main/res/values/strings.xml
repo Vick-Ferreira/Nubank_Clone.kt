@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Nubank_Clone.kt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_pincipal_A1">Um mundo financeiro sem complexidades\n</string>
+    <string name="BoasVindas_cpf">Boas-vindas ao Nubank!  Para começar, qual o seu CPF?</string>
+    <string name="txt_cpf">Precisamos dele para dar início ao seu cadastro.\n</string>
+    <string name="contato_email">Em qual e-mail podemos falar com você?</string>
+    <string name="txt_email">Ele será usado para avisar sobre transações e novidade da conta.</string>
+    <string name="contato_telefone">Qual o número do seu celular?</string>
+    <string name="txt_telefone">Digite o número com DDD.</string>
+    <string name="txt_criandoSenha">Lembre-se de não compartilhar essa senha com ninguém.</string>
+    <string name="criando_senha">Crie uma senha para acessar o aplicativo.</string>
+    <string name="senhaCadastrada">Digite sua senha do app</string>
+    <string name="nomeCompleto">Qual seu nome completo?\n</string>
 </resources>

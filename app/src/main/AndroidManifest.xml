@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Nubank_Clonekt"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Primario.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
