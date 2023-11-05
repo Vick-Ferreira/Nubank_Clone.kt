@@ -1,5 +1,5 @@
 # Clone da Interface do Nubank
-
+PROJETO EM ANDAMENTO
 Este projeto foi desenvolvido como um exercício autoral para fortalecer meu conhecimento em desenvolvimento de aplicativos móveis. O foco principal é criar um clone da interface gráfica do Nubank, um banco digital renomado por sua experiência do usuário. 
 
 ## Objetivo
